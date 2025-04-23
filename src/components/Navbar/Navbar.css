@@ -1,0 +1,34 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-container{
+    color: white;
+    font-weight: 800;
+}
+.navbar-heading{
+ background-color: rgb(10, 10, 130);
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navbar-elements-container{
+    width: 100%;
+    background-color: rgb(53, 53, 151);
+}
+.navbar-elements{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.navbar-elements>li:hover{
+    cursor: pointer;
+}
