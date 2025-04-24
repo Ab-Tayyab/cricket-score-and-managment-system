@@ -1,0 +1,62 @@
+.dashboard-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(10, 10, 130);
+    color: white;
+}
+
+.dashboard-navbar>h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.dashboard-navbar>button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.dashboard-navbar>button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(10, 10, 130);
+    transition: 0.5s all;
+}
+
+.dashboard-management{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dashboard-management-menu{
+    width: 250px;
+    height: 100vh;
+background-color: rgb(53, 53, 151);
+color: white;
+font-size: 15px;
+letter-spacing: 2px;
+padding: 50px 0px;
+}
+
+.dashboard-management-menu>h3{
+    padding: 10px;
+}
+
+.dashboard-management-menu>h3:hover{
+    cursor: pointer;
+    background-color: rgb(10, 10, 130);
+    transition: 1s all;
+}
+
+.dashboard-management-menu>h3.active{
+    color: rgb(10, 10, 130);
+    background-color: white;
+    
+}
