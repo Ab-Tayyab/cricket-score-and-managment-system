@@ -1,0 +1,116 @@
+ /* overview panel  */
+ .overview-panel {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     gap: 1rem;
+     background-color: white;
+     padding: 10px;
+     border-radius: 5px;
+     align-items: center;
+ }
+
+ .panel-heading {
+     font-size: 18px;
+     padding-bottom: 20px;
+ }
+
+ .overview-panel p {
+     font-size: 14px;
+ }
+
+ .overview-score {
+     background-color: rgba(0, 128, 0, 0.192);
+     padding: 5px 10px;
+     color: green;
+ }
+
+ .overview-panel button,
+ .scoring-panel button {
+     padding: 10px 20px;
+     border: none;
+     margin-right: 10px;
+     transition: 1s all;
+ }
+
+ .overview-panel button:hover,
+ .scoring-panel button:hover {
+     cursor: pointer;
+     transform: scale(1.1);
+     border-radius: 5px;
+
+ }
+
+ .end-btn {
+     background-color: red;
+     color: white;
+     font-weight: 600;
+ }
+
+ .pause-btn {
+     background-color: orange;
+     color: white;
+     font-weight: 600;
+ }
+
+ /* scoring panel */
+ .match-detail {
+     box-sizing: border-box;
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+ }
+
+ .scoring-panel {
+     background-color: white;
+     border-radius: 5px;
+     padding: 10px;
+ }
+
+ .scoring-panel,
+ .over-panel {
+     width: 50%;
+
+ }
+
+ .scoring-panel>div,
+ .over-panel>div {
+     padding: 20px;
+ }
+
+ .scoring-panel h5 {
+     font-size: 16px;
+     font-weight: 600;
+     padding-bottom: 20px;
+ }
+
+ .scoring-panel span {
+     padding: 10px 15px;
+     border: 3px solid black;
+     border-radius: 50%;
+     margin: 10px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ /* over panel  */
+
+ .over-panel span {
+     padding: 10px 15px;
+     border: 3px solid blue;
+     color: blue;
+     border-radius: 50%;
+     margin: 10px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .ball-detail,
+ .wicket-detail,.next-batsman {
+     background-color: white;
+ }
+
+ .ball-detail,.wicket-detail{
+    margin-bottom: 20px;
+ }

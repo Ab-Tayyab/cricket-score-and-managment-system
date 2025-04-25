@@ -39,7 +39,7 @@ return (
                     </h3>
                 ))}
             </div>
-            <div>
+            <div className='dashboard-content'>
                 {showComponent}
             </div>
         </div>

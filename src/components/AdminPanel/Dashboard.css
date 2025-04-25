@@ -30,9 +30,8 @@
 }
 
 .dashboard-management{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .dashboard-management-menu{
@@ -45,6 +44,11 @@ letter-spacing: 2px;
 padding: 50px 0px;
 }
 
+.dashboard-content{
+    width: calc(100% - 250px);
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+}
 .dashboard-management-menu>h3{
     padding: 10px;
 }
@@ -57,6 +61,5 @@ padding: 50px 0px;
 
 .dashboard-management-menu>h3.active{
     color: rgb(10, 10, 130);
-    background-color: white;
-    
+    background-color: rgb(241, 241, 241);
 }
